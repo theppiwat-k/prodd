@@ -1,0 +1,42 @@
+.links {
+  margin: 6rem;
+}
+
+.links img {
+  width: 188px;
+  height: 188px;
+}
+
+.links .box-links-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.links span {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.box-links-product .product-name {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.plus-icon {
+  letter-spacing: 0.0625em;
+  padding: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ff2f4c;
+  color: #fff;
+  border-radius: 0.25em;
+  will-change: opacity;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+  cursor: pointer;
+}
